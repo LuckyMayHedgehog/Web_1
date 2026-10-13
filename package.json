@@ -4,11 +4,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/LuckyMayHedgehog/Web_1/issues"
   },
@@ -26,6 +26,7 @@
     "autoprefixer": "^10.6.1",
     "postcss": "^8.5.29",
     "sass": "^1.105.1",
-    "vite": "^8.3.4"
+    "vite": "^8.3.4",
+    "vite-plugin-handlebars": "^2.0.3"
   }
 }
